@@ -1,0 +1,38 @@
+.address {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: $colorblc;
+  padding: 45px 0;
+  border-radius: 15px;
+  margin-top: 45px;
+}
+.address_information {
+  h3 {
+    color: #ffff;
+  }
+  p {
+    color: #ffff;
+  }
+}
+.address_sending {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.address_sending {
+  form {
+    input {
+      border-radius: 10px;
+      padding: 10px 15px;
+      outline: none;
+    }
+    button {
+      background-color: $colorrng;
+      color: $colorwh;
+      border: none;
+      padding: 10px;
+      border-radius: 10px;
+    }
+  }
+}

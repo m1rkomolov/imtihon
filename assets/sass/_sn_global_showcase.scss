@@ -1,0 +1,51 @@
+.title {
+  h1 {
+    font-weight: 600;
+    font-size: 25px;
+    color: $colorblc;
+    margin-top: 100px;
+  }
+}
+.information_cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+}
+.information_card {
+  background-color: #f5f5f5;
+  width: 378px;
+  height: 290px;
+  border-radius: 20px;
+}
+.information_card {
+  padding: 45px 40px 50px 40px;
+  button{
+    background-color: #f6e3fb;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .st_btn {
+    color: #b000dc;
+  }
+  .nd_btn {
+    background-color: #f2e1da;
+    color: #dd1f06;
+  }
+  .rd_btn {
+    background-color: #daf2ea;
+    color:#00dc72 ;
+  }
+  h5 {
+    color: $colorblc;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  p {
+    padding-top: 20px;
+  }
+}

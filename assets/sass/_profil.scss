@@ -1,0 +1,21 @@
+.profils{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.profil_contact {
+  background-color: #f5f5f5;
+  width: 295px;
+  height: 253px;
+  border-radius: 18px;
+  align-items: center;
+  text-align: center;
+  padding-top: 35px;
+  margin-top: 50px;
+  h5{
+    font-weight: 600;
+    font-size: 19px;
+  }
+  p{
+    color: #848484;
+  }
+}

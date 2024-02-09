@@ -1,0 +1,38 @@
+.sn_global_showcase{
+    background-color: #fcefe2;
+}
+.sn_showcase{
+    display: flex;
+}
+.showcase_img{
+    img{
+        margin-left: 200px;
+    }
+}
+.sn_showcase_headline{
+    padding-top: 80px;
+    h6{
+        color: #848484;
+    }
+    span{
+        color: $colorrng;
+    }
+    h1{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 54px;
+    }
+    p{
+        color: #848484;
+        line-height: 31px;
+    }
+    button{
+        background-color: #fa8c18;
+        color: $colorwh;
+        cursor: pointer;
+        border: none;
+        border-radius: 25px;
+        width: 195px;
+        height: 52px;
+    }
+}

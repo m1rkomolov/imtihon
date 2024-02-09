@@ -1,0 +1,13 @@
+.article {
+  background-color: #f5f5f5;
+  margin-top: 100px;
+}
+.article_global {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.article_img{
+    img{
+        padding-top: 65px;
+    }
+}

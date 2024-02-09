@@ -1,0 +1,165 @@
+.about_item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 180px;
+    gap: 80px;
+
+    .about_h3 p {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 40px;
+    }
+
+    .about_h3 h3 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 45px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .about_h3 h5 {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 60px;
+    }
+
+    .about_h3 button {
+        width: 177px;
+        height: 50px;
+        top: 1684px;
+        left: 109px;
+        background: #DC7000;
+        border: none;
+        color: #FFFFFF;
+        margin-top: 30px;
+    }
+
+    .about_img {
+        width: 100%;
+    }
+}
+
+@media(max-width:850px){
+    .about_item {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.about_logo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 180px;
+    gap: 80px;
+
+    .about_h4 p {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 40px;
+    }
+
+    .about_h4 h3 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 45px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .about_h4 h5 {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 60px;
+    }
+
+    .about_h4 button {
+        width: 177px;
+        height: 50px;
+        top: 1684px;
+        left: 109px;
+        background: #DC7000;
+        border: none;
+        color: #FFFFFF;
+        margin-top: 30px;
+    }
+
+    .about_img {
+        width: 100%;
+    }
+}
+
+@media(max-width:850px){
+    .about_logo {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.about_bloc {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 180px;
+    gap: 100px;
+    margin-left: 30px;
+
+    .about_h5 p {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 40px;
+    }
+
+    .about_h5 h3 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 45px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .about_h5 h5 {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 60px;
+    }
+
+    .about_h5 button {
+        width: 177px;
+        height: 50px;
+        top: 1684px;
+        left: 109px;
+        background: #DC7000;
+        border: none;
+        color: #FFFFFF;
+        margin-top: 30px;
+    }
+
+    .about_img {
+        width: 100%;
+    }
+}
+
+@media(max-width:850px){
+    .about_bloc {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

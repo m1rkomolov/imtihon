@@ -1,0 +1,20 @@
+@mixin buttonstyle($color, $b_r, $bg, $pdd, $border) {
+    color: $color;
+    border-radius: $b_r;
+    background: $bg;
+    padding: $pdd;
+    border: $border;
+    display: flex;
+    align-items: center;
+  }
+  @mixin display($dsp, $algin, $justify, $txt_a, $gp) {
+    display: $dsp;
+    align-items: $algin;
+    justify-content: $justify;
+    text-align: $txt_a;
+    gap: $gp;
+  }
+  @mixin brstyle($br, $bg_c){
+    border-radius: $br;
+    background: $bg_c;
+  }
